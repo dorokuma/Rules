@@ -1,9 +1,3 @@
 DOMAIN-SUFFIX,xiumi.us
 DOMAIN,log.mmstat.com
-DOMAIN-SUFFIX,local
 URL-REGEX,^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=(start|queryMaterialAdverts)
-IP-CIDR,10.0.0.0/8
-IP-CIDR,172.16.0.0/12
-IP-CIDR,127.0.0.0/8
-IP-CIDR,100.64.0.0/10
-IP-CIDR,119.28.28.28/32,no-resolve
