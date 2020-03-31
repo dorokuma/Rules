@@ -1,3 +1,3 @@
 DOMAIN-SUFFIX,xiumi.us
-DOMAIN,log.mmstat.com
+DOMAIN-SUFFIX,youdao.com
 URL-REGEX,^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=(start|queryMaterialAdverts)
