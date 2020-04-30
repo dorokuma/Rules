@@ -1,3 +1,4 @@
 DOMAIN-SUFFIX,xiumi.us
 DOMAIN-SUFFIX,youdao.com
-URL-REGEX,^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=(start|queryMaterialAdverts)
+DOMAIN-SUFFIX,lanrenbijia.com
+DOMAIN-SUFFIX,25mao.com
