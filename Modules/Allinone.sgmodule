@@ -3,7 +3,7 @@
 #!system=ios
 
 [MITM]
-hostname = %INSERT% *.bilibili.com,*.smzdm.com,*.uve.weibo.com,api.weibo.cn,api.zhihu.com,mapi.weibo.com,mp.weixin.qq.com,ios.prod.ftl.netflix.com,api.m.jd.com,api.gamer.com.tw,api.termius.com
+hostname = %INSERT% *.bilibili.com,*.smzdm.com,*.uve.weibo.com,api.weibo.cn,api.zhihu.com,mapi.weibo.com,mp.weixin.qq.com,ios.prod.ftl.netflix.com,api.m.jd.com,api.gamer.com.tw
 
 [Rule]
 DOMAIN,adimg.vue.weibo.com,REJECT
