@@ -8,4 +8,4 @@ DOMAIN,play.googleapis.com
 DOMAIN,api.themoviedb.org
 DOMAIN,image.tmdb.org
 DOMAIN,p14-buy.itunes.apple.com
-IP-CIDR,51.15.5.80/32,no-resolve
+IP-CIDR,163.172.62.248/32,no-resolve
