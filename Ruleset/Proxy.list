@@ -9,3 +9,5 @@ DOMAIN,api.themoviedb.org
 DOMAIN,image.tmdb.org
 DOMAIN,p14-buy.itunes.apple.com
 IP-CIDR,163.172.62.248/32,no-resolve
+IP-CIDR,172.217.0.0/16,no-resolve
+IP-CIDR,216.58.0.0/16,no-resolve
