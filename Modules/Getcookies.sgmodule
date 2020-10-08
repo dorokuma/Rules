@@ -3,7 +3,7 @@
 #!system=ios
 
 [MITM]
-hostname = %APPEND% api.m.jd.com,i.meituan.com,daojia.jd.com,maicai.api.ddxq.mobi,*.bilibili.com,mobwsa.ximalaya.com,*.rrys2019.com,ios.zmzapi.com,*.smzdm.com,sf-integral-sign-in.weixinjia.net,mcs-mimp-web.sf-express.com
+hostname = %APPEND% api.m.jd.com,i.meituan.com,maicai.api.ddxq.mobi,*.bilibili.com,mobwsa.ximalaya.com,*.rrys2019.com,ios.zmzapi.com,*.smzdm.com
 
 [Script]
 # > 京东签到 GetCookie by NobyDa
@@ -11,9 +11,6 @@ Cookie: 京东 = type=http-request,requires-body=1,pattern=^https?:\/\/api\.m\.j
 
 # > 美团签到 GetCookie by chavyleung
 Cookie: 美团 = type=http-request,requires-body=1,pattern=^https?:\/\/i\.meituan\.com\/evolve\/signin\/signpost\/,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.cookie.js
-
-# > 京东到家签到 GetCookie by barrymchen&GideonSenku
-Cookie: 京东到家 = type=http-request,requires-body=1,pattern=^https?:\/\/daojia\.jd\.com\/client(.*?)functionId=signin(.*?)userSigninNew,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/jddj/jddj.cookie.js
 
 # > 叮咚买菜签到 GetCookie by chavyleung
 Cookie: 叮咚买菜 = type=http-request,requires-body=1,pattern=^https?:\/\/maicai\.api\.ddxq\.mobi\/point\/home,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mcdd/mcdd.cookie.js
@@ -30,7 +27,3 @@ Cookie: 字幕组 = type=http-request,requires-body=1,pattern=^https?:\/\/ios.zm
 
 # > 什么值得买签到 GetCookie by chavyleung
 Cookie: 什么值得买 = type=http-request,requires-body=1,pattern=^https?:\/\/www\.smzdm\.com\/?.?,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.cookie.js
-
-# > 顺丰速运签到 GetCookie by chavyleung
-Cookie: 顺丰速运 = type=http-request,requires-body=1,pattern=^https?:\/\/mcs-mimp-web.sf-express.com\/mcs-mimp\/share\/(.*?)Redirect,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.cookie.js
-Cookie: 顺丰速运 = type=http-request,requires-body=1,pattern=^https?:\/\/sf-integral-sign-in.weixinjia.net\/app\/index,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.cookie.js
