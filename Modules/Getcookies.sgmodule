@@ -3,7 +3,7 @@
 #!system=ios
 
 [MITM]
-hostname = %APPEND% api.m.jd.com,i.meituan.com,maicai.api.ddxq.mobi,*.bilibili.com,mobwsa.ximalaya.com,*.rrys2019.com,ios.zmzapi.com,*.smzdm.com
+hostname = %APPEND% api.m.jd.com,i.meituan.com,maicai.api.ddxq.mobi,*.bilibili.com,mobwsa.ximalaya.com,*.rrys2020.com,ios.zmzapi.com,*.smzdm.com
 
 [Script]
 # > 京东签到 GetCookie by NobyDa
