@@ -3,7 +3,7 @@
 #!system=ios
 
 [MITM]
-hostname = %INSERT% *.bilibili.com,*.smzdm.com,*.uve.weibo.com,api.weibo.cn,api.zhihu.com,mapi.weibo.com,mp.weixin.qq.com,ios.prod.ftl.netflix.com,api.m.jd.com,api.gamer.com.tw
+hostname = %INSERT% *.bilibili.com,*.smzdm.com,*.uve.weibo.com,api.weibo.cn,api.zhihu.com,mapi.weibo.com,mp.weixin.qq.com,ios.prod.ftl.netflix.com,api.m.jd.com
 
 [Rule]
 DOMAIN,adimg.vue.weibo.com,REJECT
@@ -20,10 +20,6 @@ URL-REGEX,^https?:\/\/drugs\.dxy\.cn\/api\/ad\?productType=,REJECT
 URL-REGEX,^https?:\/\/www\.dxy\.cn\/webservices\/app\/specialAd\/list\?ac=,REJECT
 
 [Script]
-# > 动画疯去广告 by NoByDa
-Bahamut.js = type=http-request,pattern=https:\/\/api\.gamer\.com\.tw\/mobile_app\/anime\/v3\/token\.php,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Bahamut.js
-Bahamut.js = type=http-response,requires-body=1,max-size=0,pattern=https:\/\/api\.gamer\.com\.tw\/mobile_app\/anime\/v3\/token\.php,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Bahamut.js
-
 # > Netflix 获取 IMDb 分数 by yichahucha
 nf_rating.js = type=http-request,pattern=^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
 nf_rating.js = type=http-response,requires-body=1,pattern=^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
