@@ -26,3 +26,6 @@ Crontab: 字幕组 = type=cron,cronexp="6 10 * * *",script-path=https://raw.gith
 
 # > 什么值得买签到 DailyBonus by chavyleung
 Crontab: 什么值得买 = type=cron,cronexp="7 10 * * *",script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.js
+
+# > 美团外卖签到 DailyBonus by chavyleung
+Crontab: 美团外卖 = type=cron,cronexp="8 10 * * *",script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wmmeituan/wmmeituan.js
