@@ -3,7 +3,7 @@
 #!system=ios
 
 [MITM]
-hostname = %INSERT% *.bilibili.com,*api.smzdm.com,mp.weixin.qq.com,ios.prod.ftl.netflix.com,api.m.jd.com,gw.alicdn.com,haojia.m.smzdm.com,render.alipay.com,weixin110.qq.com
+hostname = %INSERT% *api.smzdm.com,mp.weixin.qq.com,ios.prod.ftl.netflix.com,api.m.jd.com,gw.alicdn.com,haojia.m.smzdm.com,render.alipay.com,weixin110.qq.com
 
 [Rule]
 URL-REGEX,^https:\/\/ap(p|i)\.bilibili\.com\/(pgc\/season\/rank\/cn|x\/v2\/(dm\/ad|rank.*rid=(168|5)|dataflow\/report|search\/(defaultword|trending|recommend|resource)|splash)),REJECT
