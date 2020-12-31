@@ -3,7 +3,7 @@
 #!system=ios
 
 [MITM]
-hostname = %APPEND% api.m.jd.com,i.meituan.com,maicai.api.ddxq.mobi,mobwsa.ximalaya.com,*.rrys2020.com,ios.zmzapi.com,passport.suning.com,luckman.suning.com,sign.suning.com,gameapi.suning.com,act.10010.com,m.client.10010.com,ifac*.iqiyi.com,user-api-prd-mx.wandafilm.com
+hostname = %APPEND% api.m.jd.com,i.meituan.com,maicai.api.ddxq.mobi,mobwsa.ximalaya.com,*.rrys2020.com,ios.zmzapi.com,passport.suning.com,luckman.suning.com,sign.suning.com,gameapi.suning.com,ifac*.iqiyi.com,user-api-prd-mx.wandafilm.com
 
 [Script]
 # > 京东签到 GetCookie by NobyDa
@@ -30,11 +30,6 @@ Rewrite: 喜马拉雅 = type=http-request,pattern=^https?:\/\/.*\/mobile\-user\/
 # > 人人字幕组签到 GetCookie by chavyleung
 Rewrite: 字幕组 = type=http-request,pattern=^http:\/\/ios.zmzapi.com\/index.php.*a=(mobile_)?login,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/zimuzu/zimuzu.cookie.js
 Rewrite: 字幕组 = type=http-request,pattern=^https?:\/\/(www\.)?rrys2020\.com\/?.?,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/zimuzu/zimuzu.cookie.js
-
-# > 中国联通签到 GetCookie by chavyleung
-Rewrite: 10010 = type=http-request,pattern=^https:\/\/act.10010.com\/SigninApp(.*?)\/signin\/daySign,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.cookie.js
-Rewrite: 10010 = type=http-request,pattern=^https:\/\/act.10010.com\/SigninApp\/signin\/querySigninActivity.htm,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.cookie.js
-Rewrite: 10010 = type=http-request,pattern=^https:\/\/m.client.10010.com\/dailylottery\/static\/(textdl\/userLogin|active\/findActivityInfo),script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.cookie.js
 
 # > 万达电影签到 GetCookie by chavyleung
 Rewrite: 万达电影 = type=http-request,pattern=^https:\/\/user-api-prd-mx\.wandafilm\.com,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wanda/wanda.cookie.js,debug=true
