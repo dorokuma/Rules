@@ -1,8 +1,6 @@
-payload:
-  # > HBO NOW & Max
-  - PROCESS-NAME,com.hbo.hbonow
-  - DOMAIN-SUFFIX,hbo.com
-  - DOMAIN-SUFFIX,hbogo.com
-  - DOMAIN-SUFFIX,hbonow.com
-  - DOMAIN-SUFFIX,hbomax.com
-  - DOMAIN-SUFFIX,hbomaxcdn.com
+# > HBO NOW & Max
+DOMAIN-SUFFIX,hbo.com
+DOMAIN-SUFFIX,hbogo.com
+DOMAIN-SUFFIX,hbonow.com
+DOMAIN-SUFFIX,hbomax.com
+DOMAIN-SUFFIX,hbomaxcdn.com
