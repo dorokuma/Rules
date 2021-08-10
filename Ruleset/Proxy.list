@@ -7,10 +7,11 @@ DOMAIN-SUFFIX,paypal.com
 DOMAIN-SUFFIX,bwl87.com
 DOMAIN-SUFFIX,plex.tv
 DOMAIN-SUFFIX,plex.direct
+DOMAIN-SUFFIX,nekoneko.cloud
 DOMAIN,play.googleapis.com
 DOMAIN,api.themoviedb.org
 DOMAIN,image.tmdb.org
 DOMAIN,p14-buy.itunes.apple.com
 DOMAIN,puui.qpic.cn
-IP-CIDR,140.83.48.162/32,no-resolve
+
 
