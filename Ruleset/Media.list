@@ -1,2 +1,3 @@
 DOMAIN-SUFFIX,plex.tv
 DOMAIN-SUFFIX,plex.direct
+IP-CIDR,140.83.86.101/32,no-resolve
