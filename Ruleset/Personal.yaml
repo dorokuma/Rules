@@ -1,4 +1,5 @@
- - DOMAIN-SUFFIX,huxiu.com
+payload:
+- DOMAIN-SUFFIX,huxiu.com
  - DOMAIN-SUFFIX,xboxlive.com
  - DOMAIN-SUFFIX,xboxservices.com
  - DOMAIN-SUFFIX,gamepass.com
