@@ -20,7 +20,7 @@ mixed-port: 7890
 
 # Set to true to allow connections to the local-end server from
 # other LAN IP addresses
-allow-lan: true
+allow-lan: false
 
 # This is only applicable when `allow-lan` is `true`
 # '*': bind all IP addresses
