@@ -151,14 +151,14 @@ dns:
 #
 # https://github.com/Dreamacro/clash/wiki/premium-core-features
 #
-#tun:
-# enable: false
-# stack: system # or gvisor
-# dns-hijack:
-#   - 198.18.0.2:53
-#   - tcp://198.18.0.2:53
-# auto-route: true # auto set global route
-# auto-detect-interface: true # conflict with interface-name
+tun:
+  enable: true
+  stack: system # or gvisor
+  dns-hijack:
+    - 198.18.0.2:53
+    - tcp://198.18.0.2:53
+  auto-route: true # auto set global route
+  auto-detect-interface: true # conflict with interface-name
   
 proxies:
 
