@@ -136,10 +136,6 @@ dns:
     geoip: false
     ipcidr:
       - 0.0.0.0/32
-    domain:
-      - '+.google.com'
-      - '+.facebook.com'
-      - '+.youtube.com'
 
 #
 # https://github.com/Dreamacro/clash/wiki/premium-core-features
