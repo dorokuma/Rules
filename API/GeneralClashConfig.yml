@@ -119,7 +119,7 @@ dns:
   # The answers from fallback servers are used when the GEOIP country
   # is not `CN`.
   fallback:
-    - 8.8.8.8
+    - https://doh.pub/dns-query
 
   # If IP addresses resolved with servers in `nameservers` are in the specified
   # subnets below, they are considered invalid and results from `fallback`
