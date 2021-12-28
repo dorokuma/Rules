@@ -112,15 +112,16 @@ dns:
   # All DNS questions are sent directly to the nameserver, without proxies
   # involved. Clash answers the DNS question with the first result gathered.
   nameserver:
-    - 192.168.50.1
-
+    - 119.29.29.29
+    - 223.5.5.5
+    - 114.114.114.114
   # When `fallback` is present, the DNS server will send concurrent requests
   # to the servers in this section along with servers in `nameservers`.
   # The answers from fallback servers are used when the GEOIP country
   # is not `CN`.
   fallback:
     - 8.8.8.8
-
+    - 1.1.1.1
   # If IP addresses resolved with servers in `nameservers` are in the specified
   # subnets below, they are considered invalid and results from `fallback`
   # servers are used instead.
@@ -133,9 +134,9 @@ dns:
   #
   # This is a countermeasure against DNS pollution attacks.
   fallback-filter:
-    geoip: false
+    geoip: true
     ipcidr:
-      - 0.0.0.0/32
+      - 240.0.0.0/4
 
 #
 # https://github.com/Dreamacro/clash/wiki/premium-core-features
