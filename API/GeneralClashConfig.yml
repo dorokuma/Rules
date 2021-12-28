@@ -121,7 +121,7 @@ dns:
   # is not `CN`.
   fallback:
     - 8.8.8.8
-    - 1.1.1.1
+    - https://1.1.1.1/dns-query
   # If IP addresses resolved with servers in `nameservers` are in the specified
   # subnets below, they are considered invalid and results from `fallback`
   # servers are used instead.
