@@ -210,7 +210,7 @@ rules:
 
 # Streaming
   - RULE-SET,YouTube,☁️ Proxy
-  - RULE-SET,Bahamut,🎞️ Bahamut
+  - RULE-SET,Bahamut,🎞️ Bahamut&friDay
   - RULE-SET,Disney+,📺 Disney&Netflix
   - RULE-SET,Disney++,📺 Disney&Netflix 
   - RULE-SET,HBO MAX,🖥️ HBO&Hulu 
@@ -219,7 +219,8 @@ rules:
   - RULE-SET,Netflix,📺 Disney&Netflix 
 
 # (DNS Cache Pollution) / (IP Blackhole) / (Region-Restricted Access Denied) / (Network Jitter)
-  - RULE-SET,Global,☁️ Proxy
+  - RULE-SET,Proxy,☁️ Proxy
+  - RULE-SET,Proxy4Myself,☁️ Proxy
 
 # China Area Network  
   - RULE-SET,China,⚡ Direct   
