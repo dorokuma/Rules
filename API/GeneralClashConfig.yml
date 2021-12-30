@@ -219,6 +219,7 @@ rules:
 # Streaming
   - RULE-SET,YouTube,☁️ Proxy
   - RULE-SET,Bahamut,🎞️ Bahamut&friDay
+  - RULE-SET,friDay,🎞️ Bahamut&friDay
   - RULE-SET,Disney+,📺 Disney&Netflix
   - RULE-SET,Disney++,📺 Disney&Netflix 
   - RULE-SET,HBO MAX,🖥️ HBO&Hulu 
