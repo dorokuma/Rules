@@ -113,6 +113,13 @@ rule-providers:
     url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/StreamingMedia/Video/Bahamut.yaml
     interval: 86400    
 
+  friDay:
+    type: http
+    behavior: classical
+    path: ./Provider/RuleSet/friDay.yaml
+    url: https://cdn.jsdelivr.net/gh/HotKids/Rules@master/Clash/RuleSet/friDay.yaml
+    interval: 86400    
+
   Disney+:
     type: http
     behavior: classical
