@@ -36,7 +36,8 @@ dns:
     - '*.battle.net' 
   nameserver:
     - 119.29.29.29
-  
+    - 8.8.8.8
+    
 proxies:
 
 proxy-groups:
