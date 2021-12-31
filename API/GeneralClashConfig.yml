@@ -35,14 +35,7 @@ dns:
     - '*.blzstatic.cn'
     - '*.battle.net' 
   nameserver:
-    - 1.2.4.8
-    - 114.114.114.114
-    - 223.5.5.5
-    - tls://13800000000.rubyfish.cn:853
-  fallback:
-    - tls://13800000000.rubyfish.cn:853
-    - tls://1.0.0.1:853
-    - tls://dns.google:853 
+    - 119.29.29.29
     
 proxies:
 
