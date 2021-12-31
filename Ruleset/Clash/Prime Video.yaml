@@ -1,20 +1,10 @@
 payload:
   # > Amazon Prime Video
-  # USER-AGENT,InstantVideo.US*
-  # USER-AGENT,Prime%20Video*
-  # PROCESS-NAME,com.amazon.firebat
-  # PROCESS-NAME,com.amazon.avod.thirdpartyclient
-  # PROCESS-NAME,com.amazon.amazonvideo.livingroom
-  - DOMAIN,www.amazon.com
   - DOMAIN-SUFFIX,primevideo.com
-  - DOMAIN-SUFFIX,amazonvideo.com
-  - DOMAIN-SUFFIX,media-amazon.com
   - DOMAIN-SUFFIX,pv-cdn.net
   - DOMAIN-SUFFIX,aiv-cdn.net
   - DOMAIN-SUFFIX,aiv-delivery.net
-  - DOMAIN,www.amazon.com
-  - DOMAIN,ktpx.amazon.com
-  - DOMAIN,atv-ps.amazon.com
   - DOMAIN-KEYWORD,avoddashs
   - DOMAIN-KEYWORD,cloudfront
   - DOMAIN-KEYWORD,akamaihd
+  - DOMAIN-KEYWORD,amazon  
