@@ -12,9 +12,9 @@ payload:
   - DOMAIN-SUFFIX,pv-cdn.net
   - DOMAIN-SUFFIX,aiv-cdn.net
   - DOMAIN-SUFFIX,aiv-delivery.net
-  - DOMAIN-SUFFIX,cloudfront.net
   - DOMAIN,www.amazon.com
   - DOMAIN,ktpx.amazon.com
   - DOMAIN,atv-ps.amazon.com
-  - DOMAIN,avodmp4s3ww-a.akamaihd.net
   - DOMAIN-KEYWORD,avoddashs
+  - DOMAIN-KEYWORD,cloudfront
+  - DOMAIN-KEYWORD,akamaihd
