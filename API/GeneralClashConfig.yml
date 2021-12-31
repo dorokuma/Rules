@@ -35,8 +35,14 @@ dns:
     - '*.blzstatic.cn'
     - '*.battle.net' 
   nameserver:
-    - 119.29.29.29
-    - 8.8.8.8
+    - 1.2.4.8
+    - 114.114.114.114
+    - 223.5.5.5
+    - tls://13800000000.rubyfish.cn:853
+  fallback:
+    - tls://13800000000.rubyfish.cn:853
+    - tls://1.0.0.1:853
+    - tls://dns.google:853 
     
 proxies:
 
@@ -152,7 +158,7 @@ rule-providers:
     type: http
     behavior: classical
     path: ./Provider/RuleSet/Prime_Video.yaml
-    url: https://cdn.jsdelivr.net/gh/HotKids/Rules@master/Clash/RuleSet/Prime%20Video.yaml
+    url: https://cdn.jsdelivr.net/gh/dorokuma/Rules@master/Ruleset/Clash/Prime%20Video.yaml
     interval: 86400 
 
   Netflix:
@@ -206,36 +212,34 @@ rules:
   - RULE-SET,Advertising,🚫 Advertising
   - RULE-SET,Hijacking,🚫 Advertising
   - RULE-SET,Privacy,🚫 Advertising
-  
-  # Global Area Network
  
   # Telegram
   - RULE-SET,Telegram,☁️ Proxy
 
-  # Apple
-  - RULE-SET,Apple,🍎 Apple
-  - RULE-SET,ATV,🍎 Apple
-
-# Streaming
+  # Streaming
+  - RULE-SET,Prime Video,📹 PrimeVideo    
   - RULE-SET,YouTube,☁️ Proxy
   - RULE-SET,Bahamut,🎞️ Bahamut&friDay
   - RULE-SET,friDay,🎞️ Bahamut&friDay
   - RULE-SET,Disney+,📺 Disney&Netflix
   - RULE-SET,Disney++,📺 Disney&Netflix 
   - RULE-SET,HBO MAX,🖥️ HBO&Hulu 
-  - RULE-SET,Hulu,🖥️ HBO&Hulu
-  - RULE-SET,Prime Video,📹 PrimeVideo   
+  - RULE-SET,Hulu,🖥️ HBO&Hulu 
   - RULE-SET,Netflix,📺 Disney&Netflix 
 
-# (DNS Cache Pollution) / (IP Blackhole) / (Region-Restricted Access Denied) / (Network Jitter)
+  # Apple
+  - RULE-SET,Apple,🍎 Apple
+  - RULE-SET,ATV,🍎 Apple
+
+  # (DNS Cache Pollution) / (IP Blackhole) / (Region-Restricted Access Denied) / (Network Jitter)
   - RULE-SET,Proxy,☁️ Proxy
   - RULE-SET,Proxy4Myself,☁️ Proxy
 
-# China Area Network  
+  # China Area Network  
   - RULE-SET,China,⚡ Direct   
   - RULE-SET,Direct4Myself,⚡ Direct
 
-# Local Area Network
+  # Local Area Network
   - IP-CIDR,192.168.0.0/16,⚡ Direct
   - IP-CIDR,10.0.0.0/8,⚡ Direct
   - IP-CIDR,172.16.0.0/12,⚡ Direct
@@ -244,8 +248,8 @@ rules:
   - IP-CIDR,224.0.0.0/4,⚡ Direct
   - IP-CIDR,fe80::/10,⚡ Direct
 
-# （可选）使用来自 ipipdotnet 的 ChinaIP 以解决数据不准确的问题，使用 ChinaIP.yaml 时可禁用下列直至（包括）「GEOIP,CN」规则
+  # （可选）使用来自 ipipdotnet 的 ChinaIP 以解决数据不准确的问题，使用 ChinaIP.yaml 时可禁用下列直至（包括）「GEOIP,CN」规则
   - RULE-SET,ChinaIP,⚡ Direct
 
-# Final
+  # Final
   - MATCH,☁️ Proxy
