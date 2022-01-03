@@ -26,3 +26,4 @@ payload:
  - DOMAIN-SUFFIX,nintendo.net
  - DOMAIN-SUFFIX,plex.tv
  - DOMAIN-SUFFIX,plex.direct
+ - DOMAIN-SUFFIX,tailscale.com
