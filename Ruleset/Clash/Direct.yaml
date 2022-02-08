@@ -21,7 +21,7 @@ payload:
  - DOMAIN,steamusercontent-a.akamaihd.net
  - DOMAIN,steamusercontent-a.akamaihd.net
  - DOMAIN,steamuserimages-a.akamaihd.net
- - DOMAIN,plex.hotkids.fun
+ - DOMAIN,plex.hotkids.eu
  - DOMAIN-SUFFIX,nintendo.com
  - DOMAIN-SUFFIX,nintendo.net
  - DOMAIN-SUFFIX,plex.tv
