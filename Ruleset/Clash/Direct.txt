@@ -1,27 +1,26 @@
-payload:
- - '+.265.com'
- - '+.huxiu.com'
- - '+.xboxlive.com'
- - '+.xboxservices.com'
- - '+.gamepass.com'
- - '+.store-images.s-microsoft.com'
- - '+.img-prod-cms-rt-microsoft-com.akamaized.net'
- - '+.login.live.com'
- - '+.logincdn.msauth.net'
- - '+.steam-chat.com'
- - '+.steamcontent.com'
- - '+.steamgames.com'
- - '+.steampowered.com'
- - '+.steamstat.us'
- - '+.steamstatic.com'
- - '+.steamusercontent.com'
- - '+.steambroadcast.akamaized.net'
- - '+.steamcdn-a.akamaihd.net'
- - '+.steamcommunity-a.akamaihd.net'
- - '+.steamstore-a.akamaihd.net'
- - '+.steamusercontent-a.akamaihd.net'
- - '+.steamusercontent-a.akamaihd.net'
- - '+.steamuserimages-a.akamaihd.net'
- - '+.hotkids.eu'
- - '+.nintendo.com'
- - '+.nintendo.net'
+265.com
+huxiu.com
+xboxlive.com
+xboxservices.com
+gamepass.com
+store-images.s-microsoft.com
+img-prod-cms-rt-microsoft-com.akamaized.net
+login.live.com
+logincdn.msauth.net
+steam-chat.com
+steamcontent.com
+steamgames.com
+steampowered.com
+steamstat.us
+steamstatic.com
+steamusercontent.com
+steambroadcast.akamaized.net
+steamcdn-a.akamaihd.net
+steamcommunity-a.akamaihd.net
+steamstore-a.akamaihd.net
+steamusercontent-a.akamaihd.net
+steamusercontent-a.akamaihd.net
+steamuserimages-a.akamaihd.net
+hotkids.eu
+nintendo.com
+nintendo.net
