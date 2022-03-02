@@ -1,5 +1,4 @@
-payload:
- - '+.git.io'
- - '+.shuscloud.com'
- - '+.api.themoviedb.org'
- - '+.image.tmdb.org'
+git.io
+shuscloud.com
+api.themoviedb.org
+image.tmdb.org
