@@ -1,6 +1,5 @@
-payload:
-  - '+.bahamut.akamaized.net'
-  - '+.gamer-cds.cdn.hinet.net'
-  - '+.gamer2-cds.cdn.hinet.net'
-  - '+.bahamut.com.tw'
-  - '+.gamer.com.tw'
+bahamut.akamaized.net
+gamer-cds.cdn.hinet.net
+gamer2-cds.cdn.hinet.net
+bahamut.com.tw
+gamer.com.tw
