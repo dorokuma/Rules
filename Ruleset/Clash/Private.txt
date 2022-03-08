@@ -1,4 +1,0 @@
-msftconnecttest.com
-msftncsi.com
-localhost.sec.qq.com
-localhost.ptlogin2.qq.com
