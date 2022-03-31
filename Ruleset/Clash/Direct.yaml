@@ -1,3 +1,4 @@
 payload:
   - DOMAIN,plex.hotkids.eu
   - DOMAIN-KEYWORD,tailscale
+  - DOMAIN-KEYWORD,webhorizon
