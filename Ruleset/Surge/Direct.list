@@ -23,4 +23,5 @@ DOMAIN,steamuserimages-a.akamaihd.net
 DOMAIN,plex.hotkids.eu
 DOMAIN-SUFFIX,nintendo.com
 DOMAIN-SUFFIX,nintendo.net
-DOMAIN-SUFFIX,tailscale.com
+DOMAIN-KEYWORD,tailscale
+DOMAIN-KEYWORD,webhorizon
