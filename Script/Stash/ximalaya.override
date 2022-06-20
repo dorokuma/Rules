@@ -1,0 +1,18 @@
+name: 喜马拉雅签到 by chavyleung
+desc: 仅供测试
+
+http:
+  mitm:
+    - '113.96.156.178'
+    - '*.ximalaya.com'
+  script:
+    - match: ^https?:\/\/.*\/mobile\-user\/(v1\/)?homePage\/.*
+      name: Ximalaya_Get_Cookies
+      type: request
+      require-body: false
+      timeout: 10
+      
+script-providers:
+  Ximalaya_Get_Cookies:
+    url: https://raw.githubusercontent.com/chavyleung/scripts/master/ximalaya/ximalaya.cookie.js
+    interval: 86400      
