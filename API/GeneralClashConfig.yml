@@ -1,5 +1,5 @@
 mixed-port: 7890
-allow-lan: false
+allow-lan: true
 bind-address: '*'
 mode: rule
 log-level: info
@@ -17,7 +17,12 @@ dns:
   enable: true
   listen: 0.0.0.0:53
   default-nameserver:
-    - 119.29.29.29
+    - 221.179.38.7
+    - 120.196.165.7
+    - 211.136.192.6
+    - 120.196.165.24
+    - 211.136.17.107
+    - 211.136.20.203
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16 # Fake IP addresses pool CIDR
   fake-ip-filter:
