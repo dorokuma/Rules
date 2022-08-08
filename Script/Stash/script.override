@@ -1,0 +1,10 @@
+cron:
+  script:
+    - name: iqiyi签到
+      cron: '10 0 * * *'
+      timeout: 10 
+ 
+script-providers:
+  iqiyi签到:
+    url: https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
+    interval: 86400
