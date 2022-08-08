@@ -1,4 +1,5 @@
-name: 爱奇艺签到 by NobyDa
+#SUBSCRIBED https://raw.githubusercontent.com/dorokuma/Rules/master/Script/Stash/iqiyi_get_cookies.override
+name: 爱奇艺获取cookies by NobyDa
 desc: Safari浏览器打开 https://m.iqiyi.com/user.html 使用密码登录, 如通知成功获取cookie则可使用该脚本
 
 http:
