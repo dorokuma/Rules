@@ -1,3 +1,7 @@
+#SUBSCRIBED https://raw.githubusercontent.com/dorokuma/Rules/master/Script/Stash/script.override
+name: cron脚本合集
+desc: 自用测试
+
 cron:
   script:
     - name: iqiyi签到
