@@ -6,7 +6,7 @@ http:
     - 'passport.iqiyi.com'
   script:
     - match: ^https:\/\/passport\.iqiyi\.com\/apis\/user\/
-      name: iqiyi_Get_Cookies
+      name: iqiyi_get_cookies
       type: request
       require-body: false
       timeout: 10
