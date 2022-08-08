@@ -13,6 +13,6 @@ http:
       timeout: 10
       
 script-providers:
-  Ximalaya_Get_Cookies:
+  iqiyi_get_cookies:
     url: https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
     interval: 86400      
