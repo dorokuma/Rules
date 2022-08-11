@@ -4,7 +4,7 @@ desc: 自用测试
 cron:
   script:
     - name: iqiyi签到
-      cron: "5 * * * *"
+      cron: "*/5 * * * *"
       timeout: 60 
  
 script-providers:
