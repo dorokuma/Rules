@@ -4,7 +4,7 @@ desc: 自用测试
 cron:
   script:
     - name: iqiyi签到
-      cron: "27 * * * *"
+      cron: "0 22 * * *"
  
 script-providers:
   iqiyi签到:
