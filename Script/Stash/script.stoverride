@@ -3,10 +3,11 @@ desc: 自用测试
 
 cron:
   script:
-    - name: iqiyi签到
-      cron: "0 10,22 * * *"
+    - name: iqiyi
+      cron: '0 10,22 * * *'
+      timeout: 10
  
 script-providers:
-  iqiyi签到:
+  iqiyi:
     url: https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
     interval: 86400
