@@ -4,7 +4,7 @@ desc: 自用测试
 cron:
   script:
     - name: iqiyi
-      cron: '0 10,22 * * *'
+      cron: '15 10 * * *'
       timeout: 10
  
 script-providers:
