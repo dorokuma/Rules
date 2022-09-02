@@ -2,7 +2,8 @@ payload:
   - DOMAIN-KEYWORD,hotkids
   - DOMAIN-KEYWORD,tailscale
   - DOMAIN-KEYWORD,webhorizon
-  - DOMAIN-KEYWORD,cloudfront  
+  - DOMAIN-KEYWORD,cloudfront
+  - DOMAIN-KEYWORD,akamaihd
   - SRC-IP-CIDR,192.168.50.142/32
   - SRC-IP-CIDR,192.168.50.167/32
   - SRC-IP-CIDR,192.168.50.172/32
