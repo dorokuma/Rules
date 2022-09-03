@@ -5,6 +5,9 @@ payload:
   - DOMAIN-KEYWORD,cloudfront
   - DOMAIN-KEYWORD,akamaihd
   - DOMAIN-KEYWORD,aiv-cdn
+  - DOMAIN-KEYWORD,aiv-delivery
+  - DOMAIN-KEYWORD,pv-cdn
+  - DOMAIN-KEYWORD,avoddashs
   - SRC-IP-CIDR,192.168.50.142/32
   - SRC-IP-CIDR,192.168.50.167/32
   - SRC-IP-CIDR,192.168.50.172/32
