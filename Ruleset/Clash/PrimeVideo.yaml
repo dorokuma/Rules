@@ -1,0 +1,8 @@
+payload:
+  - DOMAIN,www.amazon.com
+  - DOMAIN-SUFFIX,primevideo.com
+  - DOMAIN-SUFFIX,amazonvideo.com
+  - DOMAIN-SUFFIX,media-amazon.com
+  - DOMAIN,www.amazon.com
+  - DOMAIN,ktpx.amazon.com
+  - DOMAIN,atv-ps.amazon.com
