@@ -1,5 +1,4 @@
 payload:
-  - DOMAIN-KEYWORD,hotkids
   - DOMAIN-KEYWORD,tailscale
   - DOMAIN-KEYWORD,webhorizon
   - DOMAIN-KEYWORD,cloudfront
