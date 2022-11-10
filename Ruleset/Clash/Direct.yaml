@@ -7,6 +7,7 @@ payload:
   - DOMAIN-KEYWORD,aiv-delivery
   - DOMAIN-KEYWORD,pv-cdn
   - DOMAIN-KEYWORD,avoddashs
+  - DOMAIN-SUFFIX,ssl.gstatic.com
   - SRC-IP-CIDR,192.168.50.101/32 #
   - SRC-IP-CIDR,192.168.50.102/32 #iPad
   - SRC-IP-CIDR,192.168.50.103/32 #
