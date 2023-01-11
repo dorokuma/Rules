@@ -6,4 +6,5 @@ payload:
   - DOMAIN-KEYWORD,hotkids
   - DOMAIN-KEYWORD,pornhub
   - DOMAIN-KEYWORD,ytimg
-  - DOMAIN-KEYWORD,steamgriddb
+  - DOMAIN-KEYWORD,steam
+  - DOMAIN-KEYWORD,deck  
