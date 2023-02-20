@@ -3,7 +3,6 @@ payload:
   - DOMAIN-SUFFIX,shuscloud.com
   - DOMAIN,api.themoviedb.org
   - DOMAIN,image.tmdb.org
-  - DOMAIN-KEYWORD,hotkids
   - DOMAIN-KEYWORD,pornhub
   - DOMAIN-KEYWORD,ytimg
   - DOMAIN-KEYWORD,steam
