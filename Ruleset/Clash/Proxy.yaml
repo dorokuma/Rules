@@ -2,6 +2,7 @@ payload:
   - DOMAIN-SUFFIX,git.io
   - DOMAIN-SUFFIX,shuscloud.com
   - DOMAIN,api.themoviedb.org
+  - DOMAIN,cn.turtle-wow.org
   - DOMAIN,image.tmdb.org
   - DOMAIN-KEYWORD,pornhub
   - DOMAIN-KEYWORD,ytimg
