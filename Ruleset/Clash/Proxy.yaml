@@ -2,12 +2,10 @@ payload:
   - DOMAIN-SUFFIX,git.io
   - DOMAIN-SUFFIX,shuscloud.com
   - DOMAIN,api.themoviedb.org
-  - DOMAIN,cn.turtle-wow.org
+  - DOMAIN,cc.hotkids.eu
   - DOMAIN,image.tmdb.org
   - DOMAIN-KEYWORD,pornhub
-  - DOMAIN-KEYWORD,ytimg
-  - DOMAIN-KEYWORD,steam
-  - DOMAIN-KEYWORD,deck  
+  - DOMAIN-KEYWORD,ytimg 
   - DOMAIN-KEYWORD,nexusmods
   - DOMAIN-KEYWORD,parsec
   - DOMAIN-KEYWORD,wemod
