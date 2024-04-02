@@ -125,7 +125,7 @@ dns:
 
   tun:
     enable: true
-    stack: system # or gvisor
+    stack: mixed # or gvisor
     dns-hijack:
       - 198.18.0.2:53
       - tcp://198.18.0.2:53
