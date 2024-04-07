@@ -1,6 +1,7 @@
 payload:
   - DOMAIN-SUFFIX,git.io
   - DOMAIN-SUFFIX,shuscloud.com
+  - DOMAIN-SUFFIX,hdtime.org
   - DOMAIN,api.themoviedb.org
   - DOMAIN,cc.hotkids.eu
   - DOMAIN,image.tmdb.org
