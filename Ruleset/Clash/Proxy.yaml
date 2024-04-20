@@ -3,7 +3,6 @@ payload:
   - DOMAIN-SUFFIX,shuscloud.com
   - DOMAIN-SUFFIX,hdtime.org
   - DOMAIN,api.themoviedb.org
-  - DOMAIN,cc.hotkids.eu
   - DOMAIN,image.tmdb.org
   - DOMAIN-KEYWORD,pornhub
   - DOMAIN-KEYWORD,ytimg 
@@ -13,3 +12,4 @@ payload:
   - DOMAIN-KEYWORD,nexus-cdn
   - DOMAIN-KEYWORD,nnr
   - DOMAIN-KEYWORD,civitai
+  - DOMAIN-KEYWORD,plex
