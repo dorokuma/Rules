@@ -1,0 +1,16 @@
+# HBO NOW(GO)
+user-agent,HBO%20NOW*
+host,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
+host,bcbolthboa-a.akamaihd.net
+host,cf-images.ap-southeast-1.prod.boltdns.net
+host,dai3fd1oh325y.cloudfront.net
+host,s3-ap-southeast-1.amazonaws.com
+host-wildcard,hboasia*-i.akamaihd.net
+host,players.brightcove.net
+host-suffix,bcbolthboa-a.akamaihd.net
+host-suffix,cf-images.ap-southeast-1.prod.boltdns.net
+host-suffix,execute-api.ap-southeast-1.amazonaws.com
+host-suffix,execute-api.us-east-1.amazonaws.com
+host-suffix,max.com
+host-suffix,discomax.com
+host-suffix,s3-ap-southeast-1.amazonaws.com
