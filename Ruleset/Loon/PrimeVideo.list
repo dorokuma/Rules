@@ -1,0 +1,42 @@
+# User Agents
+USER-AGENT, InstantVideo.US*
+USER-AGENT, Prime%20Video*
+
+# Main
+HOST, fls-na.amazon.com
+HOST, ktpx.amazon.com
+HOST-KEYWORD, avoddashs
+HOST-SUFFIX, audible.com
+HOST-SUFFIX, amazonprimevideo.cn
+HOST-SUFFIX, amazonprimevideo.com.cn
+HOST-SUFFIX, amazonprimevideos.com
+HOST-SUFFIX, amazonvideo.cc
+HOST-SUFFIX, amazonvideo.com
+HOST-SUFFIX, amazonvideodirect.com
+HOST-SUFFIX, atv-ps.amazon.com
+HOST-SUFFIX, prime-video.com
+HOST-SUFFIX, primeday.cn
+HOST-SUFFIX, primeday.com.cn
+HOST-SUFFIX, primeday.info
+HOST-SUFFIX, prod.service.minerva.devices.a2z.com
+HOST-SUFFIX, ssl-images-amazon.com
+HOST-WILDCARD, primevideo.*
+
+# Content Delivery Network
+HOST-SUFFIX, aiv-cdn.net
+HOST-SUFFIX, aiv-delivery.net
+HOST-SUFFIX, amazonaws.com
+HOST-SUFFIX, amazonvideo.com
+HOST-SUFFIX, media-amazon.com
+HOST-SUFFIX, pv-cdn.net
+HOST-SUFFIX, avodmp4s3ww-a.akamaihd.net
+
+# Content below may unavailable
+HOST, avodmp4s3ww-a.akamaihd.net
+HOST, d1v5ir2lpwr8os.cloudfront.net
+HOST, d1xfray82862hr.cloudfront.net
+HOST, d22qjgkvxw22r6.cloudfront.net
+HOST, d25xi40x97liuc.cloudfront.net
+HOST, d27xxe7juh1us6.cloudfront.net
+HOST, d3196yreox78o9.cloudfront.net
+HOST, dmqdd6hw24ucf.cloudfront.net
