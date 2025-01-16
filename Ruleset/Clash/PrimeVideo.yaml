@@ -1,8 +1,33 @@
 payload:
-  - DOMAIN,www.amazon.com
-  - DOMAIN-SUFFIX,primevideo.com
+  - DOMAIN,fls-na.amazon.com
+  - DOMAIN,ktpx.amazon.com
+  - DOMAIN-KEYWORD,avoddashs
+  - DOMAIN-SUFFIX,audible.com
+  - DOMAIN-SUFFIX,amazonprimevideo.cn
+  - DOMAIN-SUFFIX,amazonprimevideo.com.cn
+  - DOMAIN-SUFFIX,amazonprimevideos.com
+  - DOMAIN-SUFFIX,amazonvideo.cc
+  - DOMAIN-SUFFIX,amazonvideo.com
+  - DOMAIN-SUFFIX,amazonvideodirect.com
+  - DOMAIN-SUFFIX,atv-ps.amazon.com
+  - DOMAIN-SUFFIX,prime-video.com
+  - DOMAIN-SUFFIX,primeday.cn
+  - DOMAIN-SUFFIX,primeday.com.cn
+  - DOMAIN-SUFFIX,primeday.info
+  - DOMAIN-SUFFIX,prod.service.minerva.devices.a2z.com
+  - DOMAIN-SUFFIX,ssl-images-amazon.com
+  - DOMAIN-SUFFIX,aiv-cdn.net
+  - DOMAIN-SUFFIX,aiv-delivery.net
+  - DOMAIN-SUFFIX,amazonaws.com
   - DOMAIN-SUFFIX,amazonvideo.com
   - DOMAIN-SUFFIX,media-amazon.com
-  - DOMAIN,www.amazon.com
-  - DOMAIN,ktpx.amazon.com
-  - DOMAIN,atv-ps.amazon.com
+  - DOMAIN-SUFFIX,pv-cdn.net
+  - DOMAIN-SUFFIX,avodmp4s3ww-a.akamaihd.net
+  - DOMAIN,avodmp4s3ww-a.akamaihd.net
+  - DOMAIN,d1v5ir2lpwr8os.cloudfront.net
+  - DOMAIN,d1xfray82862hr.cloudfront.net
+  - DOMAIN,d22qjgkvxw22r6.cloudfront.net
+  - DOMAIN,d25xi40x97liuc.cloudfront.net
+  - DOMAIN,d27xxe7juh1us6.cloudfront.net
+  - DOMAIN,d3196yreox78o9.cloudfront.net
+  - DOMAIN,dmqdd6hw24ucf.cloudfront.net
