@@ -1,4 +1,3 @@
 payload:
   - DOMAIN-SUFFIX,ddns.net
   - DOMAIN-KEYWORD,tailscale
-  - DOMAIN-KEYWORD,plex
