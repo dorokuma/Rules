@@ -1,3 +1,5 @@
 payload:
   - DOMAIN-SUFFIX,ddns.net
+  - DOMAIN-SUFFIX,hotkids.eu  
   - DOMAIN-KEYWORD,tailscale
+  - DOMAIN-KEYWORD,plex
