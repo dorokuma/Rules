@@ -3,3 +3,5 @@ payload:
   - DOMAIN-SUFFIX,hotkids.eu  
   - DOMAIN-KEYWORD,tailscale
   - DOMAIN-KEYWORD,plex
+  - DOMAIN-KEYWORD,m-team
+
